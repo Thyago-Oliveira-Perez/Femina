@@ -9,6 +9,14 @@
 
 O Femina é um catálogo online para divulgar a loja de lingerie
 
+## 🎯 Público Alvo 
+
+O público alvo são pessoa de ambos os sexos acima de 18 anos, abrangendo Itaipulândia e região, e com maior intuito de atingir pessoas que não se sintam a vontade em fazer o atendimento ao vivo.
+
+## 🎌 Concorrencia 
+
+Lojas da região e outros catalogos online com o mesmo seguimento.
+
 ## 💻 Objetivo
 
 Evitar Constrangimento de alguns clientes no ato da compra.
