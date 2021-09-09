@@ -4,70 +4,80 @@
     box-sizing: border-box;
 }
 
-header{
+html {
+    font-family: poppins;
+}
 
+header{
     background-color: #9B4A46;
     padding-left: 0px;
 
 }
 
 .container1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     max-width: 1240px;
     margin: 0 auto;
     padding-bottom: 30px;
 }
 
-#logo{
-
+#logo {
     margin: 0;
     padding-top: 10px;
     padding-bottom: 0;
-
+    left: 122px;
 }
 
 #categorias{
-
     display: flex;
     align-items: center;
     justify-content: space-between;
     list-style: none;
     color: white;
-    
 }
 
 #login{
-
+    margin-top: 30px;
     margin-left: 200px;
     width: 60px;
     color: white;
     text-decoration: none;
-    font-family:Arial, Helvetica, sans-serif;
-
 }
 
 #cadastro{
-
+    margin-top: 30px;
     margin-left: 20px;
     width: 60px;
     color: white;
     text-decoration: none;
-    font-family:Arial, Helvetica, sans-serif;
-
 }
 
-#buscar{
-
+#buscar {
+    margin-top: 30px;
     margin-left: 300px;
     border: none;
     outline: none;
-    border-bottom: 1px solid white;
+    border-bottom: 1px solid #D4A9A7;
     background: transparent;
     width: 300px;
     text-align: center;
 }
 
-.categorias{
 
+#buscar:focus{
+    border-bottom: 1.5px solid #7A0000;
+}
+
+#buscar::placeholder {
+    color: white;
+    opacity: .7;
+    font-family: poppins;
+}
+
+.categorias {
     background-color: #D4A9A7;
     margin: 0 auto;
     padding: 10px 0px;
