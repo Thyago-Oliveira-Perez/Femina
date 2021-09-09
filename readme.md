@@ -1,6 +1,3 @@
-
-
-
 <h1 align="center">
   <img alt="logo-femina" src="./Images/logo.png" width="220px" />
 </h1>
@@ -38,4 +35,4 @@ Você pode visualizar o layout do projeto através [desse link](https://www.figm
 
 Feito com ♥ 
 
-by Anna Sganderla Dayane Siminski, Thyago Oliveira, Vitor Adams.
+by Anna Sganderla, Dayane Siminski, Thyago Oliveira, Vitor Adams.
