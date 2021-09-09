@@ -25,13 +25,9 @@ header{
     display: flex;
 }
 
-<<<<<<< HEAD
-#logo {
-=======
 .logo{
 
     width: 150px;
->>>>>>> att_teste
     margin: 0;
     margin-left: 30px;
     padding: 10px;
@@ -39,19 +35,6 @@ header{
     left: 122px;
 }
 
-<<<<<<< HEAD
-#categorias{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    list-style: none;
-    color: white;
-}
-
-#login{
-    margin-top: 30px;
-    margin-left: 200px;
-=======
 .area_do_usuario{
 
     width: 100%;
@@ -62,36 +45,22 @@ header{
 .area_do_usuario a{
 
     margin-left: 60px;
->>>>>>> att_teste
     width: 60px;
     color: white;
     text-decoration: none;
 }
 
-<<<<<<< HEAD
-#cadastro{
-    margin-top: 30px;
-    margin-left: 20px;
-    width: 60px;
-=======
 .barra_de_pesquisa{
 
     width: 100%;
     padding: 20px;
     margin-left: 130px;
->>>>>>> att_teste
     color: white;
     text-decoration: none;
 }
 
-<<<<<<< HEAD
-#buscar {
-    margin-top: 30px;
-    margin-left: 300px;
-=======
 .input{
 
->>>>>>> att_teste
     border: none;
     outline: none;
     border-bottom: 1px solid #D4A9A7;
@@ -103,11 +72,11 @@ header{
 }
 
 
-#buscar:focus{
+.buscar:focus{
     border-bottom: 1.5px solid #7A0000;
 }
 
-#buscar::placeholder {
+.buscar::placeholder {
     color: white;
     opacity: .7;
     font-family: poppins;
