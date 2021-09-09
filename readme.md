@@ -26,6 +26,8 @@ Esse projeto foi desenvolvido com as seguintes tecnologias:
 
 Você pode visualizar o layout do projeto através [desse link](https://www.figma.com/file/ALIINmg5PtKDpoFDu2yUKv/femina?node-id=0%3A1).
 
-## :computer: Layout
+## :computer: Criadores
 
-Feito com ♥ by Anna Sganderla, Dayane Siminski, Thyago Oliveira, Vitor Adams.
+Feito com ♥ 
+
+by Anna Sganderla Dayane Siminski, Thyago Oliveira, Vitor Adams.
