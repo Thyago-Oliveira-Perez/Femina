@@ -17,7 +17,7 @@ header{
     padding-bottom: 30px;
 }
 
-#logo{
+.logo{
 
     margin: 0;
     padding-top: 10px;
@@ -25,7 +25,7 @@ header{
 
 }
 
-#categorias{
+.categorias{
 
     display: flex;
     align-items: center;
@@ -35,7 +35,7 @@ header{
     
 }
 
-#login{
+.login{
 
     margin-left: 200px;
     width: 60px;
@@ -45,7 +45,7 @@ header{
 
 }
 
-#cadastro{
+.cadastro{
 
     margin-left: 20px;
     width: 60px;
@@ -55,7 +55,7 @@ header{
 
 }
 
-#buscar{
+.buscar{
 
     margin-left: 300px;
     border: none;
@@ -74,7 +74,7 @@ header{
 
 }
 
-#container2{
+.container2{
 
     max-width: 1240px;
     margin: 0 auto;
