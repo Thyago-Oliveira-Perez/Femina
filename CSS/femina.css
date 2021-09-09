@@ -14,30 +14,30 @@ header{
 .container1{
     max-width: 1240px;
     margin: 0 auto;
-    padding-bottom: 30px;
+    padding-left: 100px;
+    display: flex;
 }
 
 .logo{
 
+    width: 150px;
     margin: 0;
-    padding-top: 10px;
+    margin-left: 30px;
+    padding: 10px;
     padding-bottom: 0;
 
 }
 
-.categorias{
+.area_do_usuario{
 
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    list-style: none;
-    color: white;
-    
+    width: 100%;
+    padding: 26px;
+
 }
 
-.login{
+.area_do_usuario a{
 
-    margin-left: 200px;
+    margin-left: 60px;
     width: 60px;
     color: white;
     text-decoration: none;
@@ -45,25 +45,27 @@ header{
 
 }
 
-.cadastro{
+.barra_de_pesquisa{
 
-    margin-left: 20px;
-    width: 60px;
+    width: 100%;
+    padding: 20px;
+    margin-left: 130px;
     color: white;
     text-decoration: none;
     font-family:Arial, Helvetica, sans-serif;
 
 }
 
-.buscar{
+.input{
 
-    margin-left: 300px;
     border: none;
     outline: none;
     border-bottom: 1px solid white;
     background: transparent;
-    width: 300px;
+    width: 400px;
     text-align: center;
+    color: white;
+
 }
 
 .categorias{
@@ -71,6 +73,9 @@ header{
     background-color: #D4A9A7;
     margin: 0 auto;
     padding: 10px 0px;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
 
 }
 
