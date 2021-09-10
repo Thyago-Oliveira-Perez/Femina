@@ -11,7 +11,7 @@ html {
 header{
     background-color: #9B4A46;
     padding-left: 0px;
-
+    
 }
 
 .container1{
@@ -100,9 +100,51 @@ header{
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
-.carrossel-bar img {
+.imagem-central img{
     width: 100%;
-    height: 400px;
+    height: 100%;
+}
+
+.ofertas {
+    padding: 15rem;
+    padding-top: 3rem;
+}
+
+.ofertas h1 {
+    font-size: 20px;
+    font-weight:normal;
+    margin-bottom: 20px;
+}
+
+.item h3 {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.item p {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.ofertas #items-wrapper #items {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+
+    overflow-x: auto;
+}
+
+.ofertas #items-wrapper #items .item {
+    margin-left: 0rem;
+    width: 15vw;
+}
+
+.item {
+    flex: none;
+}
+
+#items .item img {
+    
 }
 
 @media (max-width: 900px){
