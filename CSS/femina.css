@@ -76,13 +76,13 @@ header{
     border-bottom: 1.5px solid #7A0000;
 }
 
-.buscar::placeholder {
+.buscar::placeholder{
     color: white;
     opacity: .7;
     font-family: poppins;
 }
 
-.categorias {
+.categorias{
     background-color: #D4A9A7;
     margin: 0 auto;
     padding: 10px 0px;
@@ -97,6 +97,10 @@ header{
     max-width: 1240px;
     margin: 0 auto;
 
+}
+
+.container2  li a {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 
 @media (max-width: 900px){
