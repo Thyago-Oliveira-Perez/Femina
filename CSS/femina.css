@@ -143,10 +143,6 @@ header{
     flex: none;
 }
 
-#items .item img {
-    
-}
-
 @media (max-width: 900px){
 
     .categorias{

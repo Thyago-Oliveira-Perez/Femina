@@ -37,4 +37,4 @@ Você pode visualizar o layout do projeto através [desse link](https://www.figm
 
 Feito com ♥ 
 
-by Anna Sganderla, Dayane Siminski, Thyago Oliveira, Vitor Adams.
+by Anna Sganderla, Dayane Siminski, Maria Julia Furtado, Thyago Oliveira e Vitor Adams.
