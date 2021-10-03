@@ -3,13 +3,19 @@
         margin: 0;
         box-sizing: border-box;
     }
+
+    :root {
+        --bege1: #9B4A46;
+        --bege2: #D4A9A7;
+        --bordo: #7A0000;
+    }
     
     html {
         font-family: poppins;
     }
     
     header {
-        background-color: #9B4A46;
+        background-color: var(--bege1);
         padding-left: 0px;
     }
     
@@ -54,7 +60,7 @@
     .input {
         border: none;
         outline: none;
-        border-bottom: 1.5px solid #D4A9A7;
+        border-bottom: 1.5px solid var(--bege2);
         background: transparent;
         width: 400px;
         text-align: center;
@@ -83,7 +89,7 @@
     }
     
     .barra_de_pesquisa input:focus {
-        border-bottom: 2px solid #7A0000;
+        border-bottom: 2px solid var(--bordo);
     }
     
     .barra_de_pesquisa input::placeholder {
@@ -93,7 +99,7 @@
     }
     
     .categorias {
-        background-color: #D4A9A7;
+        background-color: var(--bege2);
         margin: 0 auto;
         padding: 10px 0px;
         align-items: center;
@@ -171,3 +177,4 @@
         border-right: 1px solid white;
         padding: 6px 16px;
     }
+
