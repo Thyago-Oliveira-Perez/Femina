@@ -15,30 +15,30 @@
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-    <link rel="stylesheet" href="./CSS/">
+    <link rel="stylesheet" type="text/css" href="./CSS/cadastro.css">
 </head>
 
 <body>
     <header>
-        <div class="header"></div>
-        <div class="logo">
-            <a href="index.html"><img src="Images/logo.png"></a>
+        <div class="header">
+            <div class="logo">
+                <a href="index.html"><img src="Images/logo.png"></a>
+            </div>
+            <div class="user-icon">
+                <a href="">Sair 
+                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.33333 4.9V2.1L14 7L9.33333 11.9V9.1H4.66667V4.9H9.33333ZM0 0V14H8.16667V12.6H1.16667V1.4H8.16667V0H0Z" fill="#D4A9A7"/>
+                    </svg>
+                </a>
+            </div>
         </div>
-        <div class="user-icon">
-            <a href=""><img src="Images/logout.svg"></a>
-        </div>
-        </div>
-
         <nav>
             <div class="top-nav">
-                <ul>
-                    <li>
-                        <a href="">Cadatrar</a>
-                    </li>
-                    <li>
-                        <a href="">Mostrar Produtos Cadastrados</a>
-                    </li>
-                </ul>
+                <div class="nav-items">
+                    <a href="">Cadastrar</a>
+                    <div class="l"></div>
+                    <a href="">Mostrar Produtos Cadastrados</a>
+                </div>
             </div>
         </nav>
     </header>
@@ -49,7 +49,7 @@
                 <h1>Cadastro de Produtos</h1>
             </div>
             <div class="btn-top">
-                <button>+</button>
+                <button><i class="fa fa-plus" aria-hidden="true"></i></button>
             </div>
             <div class="box">
                 <div class="row">
@@ -166,8 +166,6 @@
                             <h3 class="nome-produto">Calcinha Dona Olinda</h3>
                             <small class="price">R$ 99,99</small>
                         </div>
-
-
                     </div>
                 </div>
 
