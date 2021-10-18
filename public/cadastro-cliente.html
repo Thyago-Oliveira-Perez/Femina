@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Fontes do google-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet">
+
+    <!--favicon da página-->
+    <link rel="shortcut icon" href="../Images/Favicon.png">
+
+    <!--referência para adicionar ícones-->
+    <link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!--link para ligar o HTML com a estilizaçâo-->
+    <link rel="stylesheet" href="../CSS/cadastro-cliente.css">
+
+    <title>Cadastre-se</title>
+</head>
+<body>
+
+    <header>
+        <div class="logo">
+            <a href="/"><img src="../Images/logo.png"></a>
+        </div>
+    </header>
+    
+    <section>
+        <h1>Seja bem-vindo!</h1>
+        <p>Crie uma conta e tenha mais comodidade em sua compra</p>
+    </section>
+
+    <div class="cadastro">
+        <form action="">
+            <div class="input">
+                <label>Nome completo</label>
+                <input type="text" name="nome" id="nome">
+            </div>
+
+            <div class="input">
+                <label>CPF</label>
+                <input type="text" name="cpf" id="cpf">
+            </div>
+
+            <div class="input">
+                <label>Gênero
+                    <input type="checkbox" name="genre" id="genre">Feminino
+                    <input type="checkbox" name="genre" id="genre">Masculino
+                    <input type="checkbox" name="genre" id="genre">Prefiro nâo informar
+                </label>
+            </div>
+
+            <div class="input column">
+                <label>Data de nascimento</label>
+                <input type="text" name="date-of-birth" id="date-of-birth" placeholder="__/__/____">
+            </div>
+
+            <div class="input column">
+                <label>Telefone</label>
+                <input type="text" name="phone" id="phone" placeholder="(_) ____-____">
+            </div>
+
+            <div class="input">
+                <label>E-mail</label>
+                <input type="text" name="e-mail" id="e-mail">
+            </div>
+
+            <div class="input">
+                <label>Crie uma senha</label>
+                <input type="text" name="password" id="password">
+            </div>
+
+            <div class="input">
+                <label>Confirme sua senha</label>
+                <input type="text" name="confirm-password" id="confirm-password">
+            </div>
+
+            <div class="terms">
+                <input type="checkbox" name="term"> Declaro que li e concordo com os <a href="#"> Termos de Política e Privacidade</a>
+            </div>
+        </form>
+
+        <div class="submit">
+            <button class="create-account">
+                <a href="#">Criar Cadastro</a>
+            </button>
+
+            <small>Ou crie com o Facebook</small>
+
+            <button>
+                <a href="#">
+                    <i class="fab fa-facebook-square"></i>
+                    Continuar com o Facebook
+                </a>
+            </button>
+
+            <small>Já tem cadastro? <a href="#">Entrar</a> </small>
+        </div>
+    </div>
+
+    <script src="https://kit.fontawesome.com/4e7452609b.js"></script>
+</body>
+</html>
