@@ -4,102 +4,6 @@
     box-sizing: border-box;
 }
 
-<<<<<<< HEAD
-    :root {
-        --bege1: #9B4A46;
-        --bege2: #D4A9A7;
-        --bordo: #7A0000;
-    }
-    
-    html {
-        font-family: Poppins;
-    }
-    
-    header {
-        background-color: var(--bege1);
-        padding-left: 0px;
-    }
-    
-    .container1 {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        max-width: 1240px;
-        padding-left: 100px;
-        display: flex;
-    }
-    
-    .logo {
-        width: 150px;
-        margin: 0;
-        margin-left: 10px;
-        padding: 10px;
-        padding-bottom: 0;
-        left: 122px;
-    }
-    
-    .area_do_usuario {
-        display: flex;
-        padding: 26px;
-    }
-    
-    .area_do_usuario a {
-        margin-left: 65px;
-        width: 60px;
-        color: white;
-        text-decoration: none;
-    }
-    
-    .barra_de_pesquisa {
-        width: 100%;
-        padding: 20px;
-        margin-left: 130px;
-        color: white;
-        text-decoration: none;
-    }
-    
-    .input {
-        border: none;
-        outline: none;
-        border-bottom: 1.5px solid var(--bege2);
-        background: transparent;
-        width: 400px;
-        text-align: center;
-        color: white;
-    }
-    
-    .btn-search {
-        display: flex;
-        float: right;
-        margin-right: 30%;
-    }
-    
-    .btn-search button {
-        position: absolute;
-        color: white;
-        background: none;
-        outline: none;
-        border: none;
-        margin-top: 4px;
-        cursor: pointer;
-    }
-    
-    .btn-search i {
-        width: 8px;
-        height: 8px;
-    }
-    
-    .barra_de_pesquisa input:focus {
-        border-bottom: 2px solid var(--bordo);
-    }
-    
-    .barra_de_pesquisa input::placeholder {
-        color: white;
-        opacity: .7;
-        font-family: poppins;
-    }
-    
-=======
 html {
     font-family: Poppins;
 }
@@ -249,12 +153,11 @@ header {
 }
 
 @media (max-width: 900px) {
->>>>>>> d068952b17cd248dd07c21973463b9bae5bb1b3f
     .categorias {
         background-color: red;
         margin: 0 auto;
     }
-    <<<<<<< HEAD
+    
 }
 
 li a {
@@ -269,5 +172,3 @@ li {
     border-right: 1px solid white;
     padding: 6px 16px;
 }
-
-=======>>>>>>>e06b7b58c2a0e988809c9240157ff7cf1fcec9c5
