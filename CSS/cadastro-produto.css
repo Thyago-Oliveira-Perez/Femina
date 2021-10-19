@@ -264,6 +264,7 @@ input:-webkit-autofill {
 
 #form h3 {
     margin-left: 140px;
+    font-weight: 500;
 }
 
 #form select {
@@ -281,6 +282,13 @@ input:-webkit-autofill {
 
 .input-group {
     margin-top: 0.8rem;
+}
+
+.input-group i {  /* gambiarra nâo mexa*/
+    margin-left: 285px;
+    position: fixed;
+    margin-top: 2.4rem;
+    color: #9B4A46;
 }
 
 .input-group select,
@@ -347,9 +355,8 @@ input:-webkit-autofill {
 }
 
 .input-group.actions button:hover {
-    background-color: white;
-    color: #9B4A46;
-    border: 1px solid  #9B4A46;
+    background-color: #7A0000;
+
 }
 
 @media screen and (min-width: 800px) {
