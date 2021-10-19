@@ -428,7 +428,7 @@ input:-webkit-autofill {
         padding: 100px 0;
     }
     .btn-top {
-        padding: 0 15%;
+        padding: 0 3.5%;
     }
     .btn-top button {
         width: 50px;
@@ -486,8 +486,8 @@ input:-webkit-autofill {
         width: 230px;
     }
     .btn-bottom {
-        width: 1000px;
-        padding: 40px 15%;
+        width: 600px;
+        padding: 40px 3.5%;
     }
     .btn-bottom button {
         width: 200px;
