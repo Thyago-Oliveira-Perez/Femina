@@ -140,7 +140,7 @@ header {
     margin: auto;
     align-items: center;
     justify-content: center;
-    overflow-x: auto;
+    overflow-x: hidden;
 }
 
 .ofertas #items-wrapper #items .item {
@@ -150,6 +150,35 @@ header {
 
 .item {
     flex: none;
+}
+
+.arrowLeft,
+.arrowRight {
+    position: absolute;
+    width: 40px;
+    height: 225px;
+
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    cursor: pointer;
+    opacity: .7;
+    transition: all ease 0.5s;
+}
+
+.arrowLeft:hover,
+.arrowRight:hover {
+    opacity: 1;
+}
+
+.arrowLeft {
+    left: 100px;
+}
+
+.arrowRight {
+    right: 100px;
 }
 
 @media (max-width: 900px) {
