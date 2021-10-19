@@ -211,6 +211,147 @@ input:-webkit-autofill {
     color: #fff;
 }
 
+/* MODAL =============================*/
+.modal-overlay {
+    width: 100%;
+    height: 100%;
+
+    background-color: rgba(0,0,0,0.7);
+
+    position: fixed;
+    top: 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    opacity: 0;
+    visibility: hidden;
+
+    z-index: 999;
+}
+
+.modal-overlay.active {
+    opacity: 1;
+    visibility: visible;
+}
+
+.modal {
+    width: 500px;
+    height: 350px;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.modal {
+    background: #f0f2f5;
+    padding: 2.4rem;
+    width: 90%;
+    max-width: 500px;
+
+    position: relative;
+    z-index: 1;
+}  
+
+.input-group label {
+    font-weight: normal;
+}
+
+/* FORM =============================*/
+#form {
+    max-width: 500px;
+}
+
+#form h3 {
+    margin-left: 140px;
+}
+
+#form select {
+    display: block;
+    width: 420px;
+    height: 35px;
+    padding: 20px;
+    border: none;
+    border-radius: 5px;
+}
+
+#form select:focus {
+    border: 1px solid #9B4A46;
+}
+
+.input-group {
+    margin-top: 0.8rem;
+}
+
+.input-group select,
+.input-group input {
+    margin-bottom: 20px;
+}
+
+.input-group input:focus {
+    border: 1px solid #9B4A46;
+}
+
+
+.input-group input {
+    width: 420px;
+    height: 35px;
+    padding: 20px;
+    border-radius: 5px;
+    outline: none;
+    border: none;
+}
+
+.input-group.actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.input-group.actions .button,
+.input-group.actions button {
+    width: 48%;
+}
+
+.input-group.actions a {
+    text-decoration: none;
+    color: #9B4A46;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+    height: 50px;
+    border-radius: 5px;
+    border: 1px solid  #9B4A46;
+    transition: all ease 0.2s;
+}
+
+.input-group.actions a:hover {
+    background-color: #9B4A46;
+    color: white;
+}
+
+.input-group.actions button {
+    background-color: #9B4A46;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: auto;
+    height: 50px;
+    border-radius: 5px;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-size: 18px;
+    transition: all ease 0.2s;
+}
+
+.input-group.actions button:hover {
+    background-color: white;
+    color: #9B4A46;
+    border: 1px solid  #9B4A46;
+}
+
 @media screen and (min-width: 800px) {
     .header {
         padding: 0 95px;

@@ -49,7 +49,7 @@
                 <h1>Cadastro de Produtos</h1>
             </div>
             <div class="btn-top">
-                <button><i class="fa fa-plus" aria-hidden="true"></i></button>
+                <button onClick="modal.open()"><i class="fa fa-plus" aria-hidden="true"></i></button>
             </div>
             <div class="box">
                 <div class="row">
@@ -174,7 +174,43 @@
                 </h3>
             </div>
         </div>
+
+        <!--modal de criação de flitros-->
+        <div class="modal-overlay"> <!-- caixa transparente -->
+            <div class="modal"> <!-- caixa branca -->
+              <div id="form">
+                <h3>Cadastrar filtros</h3>
+                <form action="">
+                  <div class="input-group">
+
+                    <label for="filtro">Tipo de filtro</label>
+                        <select id="filtro" required>
+                            <option selected disabled value="">Selecione</option>
+                            <option>Marca</option>
+                            <option>Categoria</option>
+                            <option>Fornecedor</option>
+                        </select>
+
+                    <label for="name">Nome</label>
+                    <input type="text" id="name" name="name"/>
+      
+                  <div class="input-group actions">
+                    <a onClick="modal.close()" href="#" class="button cancel">Cancelar</a>
+                    <button>Cadastrar</button>
+                  </div>
+
+                </form>
+              </div>
+            </div>
+          </div>
+        
+
+            
+
     </main>
+
+    <script src="../main.js"></script>
+    <script src="https://kit.fontawesome.com/4e7452609b.js"></script>
 
 </body>
 
