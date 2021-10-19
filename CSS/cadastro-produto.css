@@ -37,6 +37,11 @@ a {
     align-items: center;
     margin-left: auto;
     margin-top: 15px;
+    transition: 0.3s;
+}
+
+.user-icon:hover {
+    opacity: .7;
 }
 
 .user-icon svg {
@@ -70,6 +75,12 @@ a {
     padding: 12px 10px;
     font: 11px Poppins;
     color: #fff;
+    transition: 0.4s;
+}
+
+.nav-items a:hover {
+    padding: 0;
+    border-bottom: 1px solid  #fff;
 }
 
 .l {
@@ -92,7 +103,7 @@ a {
 
 .btn-top {
     margin-left: auto;
-    padding: 0 5%;
+    padding: 0 2.5%;
 }
 
 .btn-top button {
@@ -108,6 +119,12 @@ a {
     border: none;
     border-radius: 7px;
     cursor: pointer;
+}
+
+.btn-top button:hover {
+    font: 18px Poppins;
+    box-shadow: 1px 1px 4px #9B4A46;
+    background-color: #b96d69;
 }
 
 .btn-top i {
@@ -229,11 +246,11 @@ input:-webkit-autofill {
 }
 
 .btn-bottom {
-    width: 300px;
+    width: 260px;
     display: flex;
     justify-content: space-between;
     margin-left: auto;
-    padding: 40px 6.5%;
+    padding: 40px 3%;
 }
 
 .btn-bottom button {
@@ -245,6 +262,14 @@ input:-webkit-autofill {
     border-radius: 10px;
     font: 13px Poppins;
     color: #fff;
+    cursor: pointer;
+    transition: 0.3s ease;
+}
+
+.btn-bottom button:hover {
+    font: 19px Poppins;
+    box-shadow: 1px 1px 4px #9B4A46;
+    background-color: #b96d69;
 }
 
 
@@ -428,13 +453,16 @@ input:-webkit-autofill {
         padding: 100px 0;
     }
     .btn-top {
-        padding: 0 3.5%;
+        padding: 0;
     }
     .btn-top button {
         width: 50px;
         height: 50px;
         font: 17px Poppins;
         border-radius: 12px;
+    }
+    .btn-top button:hover {
+        font: 10px Poppins;
     }
     .box {
         width: 100%;
@@ -486,13 +514,16 @@ input:-webkit-autofill {
         width: 230px;
     }
     .btn-bottom {
-        width: 600px;
-        padding: 40px 3.5%;
+        width: 450px;
+        padding: 40px 0;
     }
     .btn-bottom button {
         width: 200px;
         height: 60px;
         border-radius: 10px;
         font: 17px Poppins;
+    }
+    .btn-top button:hover {
+        font: 14px Poppins;
     }
 }
