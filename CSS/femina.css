@@ -1,99 +1,3 @@
-<<<<<<< HEAD
-    * {
-        padding: 0;
-        margin: 0;
-        box-sizing: border-box;
-    }
-    
-    html {
-        font-family: poppins;
-    }
-    
-    header {
-        background-color: #9B4A46;
-        padding-left: 0px;
-    }
-    
-    .container1 {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        max-width: 1240px;
-        margin: 0 auto;
-        display: flex;
-    }
-    
-    .logo {
-        width: 150px;
-        margin: 0;
-        margin-left: 10px;
-        padding: 10px;
-        padding-bottom: 0;
-        left: 122px;
-    }
-    
-    .area_do_usuario {
-        display: flex;
-        padding: 26px;
-    }
-    
-    .area_do_usuario a {
-        margin-left: 65px;
-        width: 60px;
-        color: white;
-        text-decoration: none;
-    }
-    
-    .barra_de_pesquisa {
-        width: 100%;
-        padding: 20px;
-        margin-left: 130px;
-        color: white;
-        text-decoration: none;
-    }
-    
-    .input {
-        border: none;
-        outline: none;
-        border-bottom: 1.5px solid #D4A9A7;
-        background: transparent;
-        width: 400px;
-        text-align: center;
-        color: white;
-    }
-    
-    .btn-search {
-        display: flex;
-        float: right;
-        margin-right: 30%;
-    }
-    
-    .btn-search button {
-        position: absolute;
-        color: white;
-        background: none;
-        outline: none;
-        border: none;
-        margin-top: 4px;
-        cursor: pointer;
-    }
-    
-    .btn-search i {
-        width: 8px;
-        height: 8px;
-    }
-    
-    .barra_de_pesquisa input:focus {
-        border-bottom: 2px solid #7A0000;
-    }
-    
-    .barra_de_pesquisa input::placeholder {
-        color: white;
-        opacity: .7;
-        font-family: poppins;
-    }
-    
-=======
 * {
     padding: 0;
     margin: 0;
@@ -249,7 +153,6 @@ header {
 }
 
 @media (max-width: 900px) {
->>>>>>> 088209b8d738dd3e363858f1bea0261b2ece6e24
     .categorias {
         background-color: red;
         margin: 0 auto;
