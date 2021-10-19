@@ -1,0 +1,190 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Poppins;
+}
+
+header {
+    background-color: #9B4A46;
+    padding-left: 0px;
+}
+
+.container1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 1240px;
+    padding-left: 100px;
+    display: flex;
+}
+
+.logo {
+    width: 150px;
+    margin: 0;
+    margin-left: 10px;
+    padding: 10px;
+    padding-bottom: 0;
+    left: 122px;
+}
+
+.area_do_usuario {
+    display: flex;
+    padding: 26px;
+}
+
+.area_do_usuario a {
+    margin-left: 65px;
+    width: 60px;
+    color: white;
+    text-decoration: none;
+}
+
+.barra_de_pesquisa {
+    width: 100%;
+    padding: 20px;
+    margin-left: 130px;
+    color: white;
+    text-decoration: none;
+}
+
+.input {
+    border: none;
+    outline: none;
+    border-bottom: 1.5px solid #D4A9A7;
+    background: transparent;
+    width: 400px;
+    text-align: center;
+    color: white;
+}
+
+.btn-search {
+    display: flex;
+    float: right;
+    margin-right: 30%;
+}
+
+.btn-search button {
+    position: absolute;
+    color: white;
+    background: none;
+    outline: none;
+    border: none;
+    margin-top: 4px;
+    cursor: pointer;
+}
+
+.btn-search i {
+    width: 8px;
+    height: 8px;
+}
+
+.barra_de_pesquisa input:focus {
+    border-bottom: 2px solid #7A0000;
+}
+
+.barra_de_pesquisa input::placeholder {
+    color: white;
+    opacity: .7;
+    font-family: poppins;
+}
+
+.categorias {
+    display: flex;
+    background-color: #D4A9A7;
+    margin: 0 auto;
+    padding: 10px 0px;
+    align-items: center;
+    justify-content: space-between;
+    list-style: none;
+}
+
+.container2 {
+    max-width: 1240px;
+    margin: 0 auto;
+}
+
+.container2 li a {
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+h2 {
+ 
+    padding:5% ;
+    font-weight:lighter;
+    
+}
+
+.lista {
+
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.item { 
+    
+   display: flex;
+    background-color: white;
+    margin 90px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 20px;
+    margin-bottom: 40px;
+    background-color:#D4A9A7;
+    width: 60%;
+}
+
+img {
+    
+    margin: 20%;
+}
+
+h3 {
+    margin:  10%;
+    font-weight:lighter;
+}
+
+.item .price{
+
+    margin:  10%;
+
+
+}
+
+ p {
+
+    width: 400px;
+    margin-left: 20px;
+    font-weight:lighter;
+
+}
+ 
+
+
+
+
+@media (max-width: 900px) {
+    .categorias {
+        background-color: red;
+        margin: 0 auto;
+    }
+    
+}
+
+li a {
+    color: white;
+    text-decoration: none;
+}
+
+li {
+    display: inline-block;
+    margin-left: 120px;
+    border-left: 1px solid white;
+    border-right: 1px solid white;
+    padding: 6px 16px;
+}

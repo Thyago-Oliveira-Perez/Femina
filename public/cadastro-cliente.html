@@ -22,7 +22,6 @@
     <title>Cadastre-se</title>
 </head>
 <body>
-
     <header>
         <div class="logo">
             <a href="/"><img src="../Images/logo.png"></a>
@@ -47,21 +46,33 @@
             </div>
 
             <div class="input">
-                <label>Gênero
-                    <input type="checkbox" name="genre" id="genre">Feminino
-                    <input type="checkbox" name="genre" id="genre">Masculino
-                    <input type="checkbox" name="genre" id="genre">Prefiro nâo informar
-                </label>
+                <label>Gênero</label>
+                <div class="option-genre">
+                    <input type="checkbox" name="genre-fem" id="genre-fem">
+                    <label for="">Feminino</label>
+                </div>
+
+                <div class="option-genre">
+                    <input type="checkbox" name="genre-fem" id="genre-fem">
+                    <label for="">Masculino</label>
+                </div>
+
+                <div class="option-genre">
+                    <input type="checkbox" name="genre-fem" id="genre-fem">
+                    <label for="">Prefiro não informar</label>
+                </div> 
             </div>
 
-            <div class="input column">
-                <label>Data de nascimento</label>
-                <input type="text" name="date-of-birth" id="date-of-birth" placeholder="__/__/____">
-            </div>
+            <div class="column">
+                <div class="input">
+                    <label>Data de nascimento</label>
+                    <input type="text" name="date-of-birth" id="date-of-birth" placeholder="__/__/____">
+                </div> 
 
-            <div class="input column">
-                <label>Telefone</label>
-                <input type="text" name="phone" id="phone" placeholder="(_) ____-____">
+                <div class="input">
+                    <label>Telefone</label>
+                    <input type="text" name="date-of-birth" id="date-of-birth" placeholder="(_) ____-____">
+                </div> 
             </div>
 
             <div class="input">
@@ -90,8 +101,8 @@
             </button>
 
             <small>Ou crie com o Facebook</small>
-
-            <button>
+               
+            <button class="create-account-with-facebook">
                 <a href="#">
                     <i class="fab fa-facebook-square"></i>
                     Continuar com o Facebook

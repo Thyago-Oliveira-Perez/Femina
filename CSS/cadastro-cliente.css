@@ -1,0 +1,173 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-family: Poppins;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #9B4A46;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section h1 {
+    font-size: 30px;
+    color: rgba(0, 0, 0, 0.9);
+}
+
+section p {
+    color: rgba(0, 0, 0, 0.6);
+    font-size: 20px;
+    text-align: center;
+    max-width: 532px;
+}
+
+section h1,
+section p {
+    padding-top: 2.5rem; 
+}
+
+.cadastro {
+    padding-top: 2.5rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    max-width: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.input {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.input label {
+    padding-bottom: 15px;
+}
+
+.input input[type="text"] {
+    height: 54px;
+    background: #FFFFFF;
+    border: 1px solid #C2C2C2;
+    border-radius: 10px;
+    outline: none;
+    padding: 20px;
+}
+
+.input input:focus {
+    border: 1px solid #9B4A46;
+}
+
+.column{
+    width: 500px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.column input {
+    width: 150px;
+}
+
+.terms {
+    padding-top: 2.5rem;
+    text-align: center;
+}
+
+.terms a {
+    text-decoration: none;
+    color: #9B4A46;
+}
+
+.submit {
+    display: flex;
+    flex-direction: column;
+    padding-top: 2.5rem;
+}
+
+.create-account {
+    width: 250px;
+    height: 50px;
+    background: #9B4A46;
+    border-radius: 5px;
+    border: none;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.create-account:hover {
+    background-color: #7A0000;
+}
+
+.create-account a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+}
+
+small {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin: auto;
+    color: rgba(0, 0, 0, 0.7);
+}
+
+.create-account-with-facebook {
+    width: 250px;
+    height: 50px;
+    background: #7A0000;
+    border-radius: 5px;
+    border: none;
+    transition: all 0.2s ease;
+    cursor: pointer;
+}
+
+.create-account-with-facebook:hover {
+    background: #9B4A46;
+}
+
+
+.create-account-with-facebook a {
+    text-decoration: none;
+    color: white;
+    font-size: 16px;  
+}
+
+small a {
+    font-size: 15px;
+    text-decoration: none;
+    color: #7A0000;
+}
+
+
+
+
+
+
+
+
+
+
+
+
