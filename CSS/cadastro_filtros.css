@@ -1,0 +1,99 @@
+html{
+
+    font-family: Poppins;
+
+}
+
+body{
+
+    background-color: antiquewhite;
+
+}
+
+main{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    width: 500px;
+    height: auto;
+    border-radius: 15px;
+    margin: 40px;
+    padding: 80px;
+
+}
+
+.container{
+
+    align-items: center;
+    flex: wrap;
+
+}
+
+.titulo{
+
+    text-align: center;
+
+}
+
+.inputs{
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+
+.input1, .input2{
+
+    padding: 20px 0;
+
+}
+
+.inputs input{
+
+    height: 50px;
+    width: 450px;
+    border-radius: 10px;
+
+}
+
+.inputs h1{
+
+    font-size: 30px;
+    padding: 0 0;
+
+}
+
+.botoes button{
+
+    border-radius: 8px;
+    padding: 15px 50px;
+    margin: 20px;
+    font-size: 20px;
+
+}
+
+.botoes{
+
+    display: flex;
+    margin: auto;
+    padding: 30px 0 0 0;
+
+}
+
+.botao1 button{
+
+    color: white;
+    background-color: #D4A9A7;
+
+}
+
+.botao2 button{
+
+    color: white;
+    background-color: #9B4A46
+
+}

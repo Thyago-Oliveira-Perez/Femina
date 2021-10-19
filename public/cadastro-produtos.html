@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Produto</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500&display=swap" rel="stylesheet">
+
+    <link rel="shortcut icon" href="../Images/Favicon.png">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <link rel="stylesheet" type="text/css" href="../CSS/cadastro-produto.css">
+</head>
+
+<body>
+    <header>
+        <div class="header">
+            <div class="logo">
+                <a href="index.html"><img src="../Images/logo.png"></a>
+            </div>
+            <div class="user-icon">
+                <a href="">Sair 
+                    <svg width="15" height="15" viewBox="0 0 15 15" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M9.33333 4.9V2.1L14 7L9.33333 11.9V9.1H4.66667V4.9H9.33333ZM0 0V14H8.16667V12.6H1.16667V1.4H8.16667V0H0Z" fill="#D4A9A7"/>
+                    </svg>
+                </a>
+            </div>
+        </div>
+        <nav>
+            <div class="top-nav">
+                <div class="nav-items">
+                    <a href="">Cadastrar</a>
+                    <div class="l"></div>
+                    <a href="">Mostrar Produtos Cadastrados</a>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    <main>
+        <div class="container">
+            <div class="titulo">
+                <h1>Cadastro de Produtos</h1>
+            </div>
+            <div class="btn-top">
+                <button><i class="fa fa-plus" aria-hidden="true"></i></button>
+            </div>
+            <div class="box">
+                <div class="row">
+                    <div class="input">
+                        <label>Nome do Produto</label>
+                        <input type="text" id="nome">
+                    </div>
+                    <div class="input">
+                        <label>Código Serial</label>
+                        <input type="numer" id="codigo">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input">
+                        <label>Modelo</label>
+                        <select name="modelo" id="modelo">
+                            <option value=""></option>
+                        </select>
+                    </div>
+                    <div class="input">
+                        <label>Tipo do Produto</label>
+                        <select name="tipo" id="tipo">
+                            <option value=""></option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="left">
+                        <div class="input">
+                            <label>Tamanho</label>
+                            <select name="tamanho" id="tamanho">
+                                <option value=""></option>
+                            </select>
+                        </div>
+                        <div class="input">
+                            <label>Cor</label>
+                            <select name="cor" id="cor">
+                                <option value=""></option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="input">
+                        <label>Marca</label>
+                        <select name="marca" id="marca">
+                            <option value=""></option>
+                        </select>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input">
+                        <label>Descrição Do Produto</label>
+                        <select name="descricao" id="descricao">
+                            <option value=""></option>
+                        </select>
+                    </div>
+                    <div class="input">
+                        <label>Valor</label>
+                        <input type="numer" id="valor">
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="input">
+                        <label>Imagem Do Produto</label>
+                        <input type="">
+                    </div>
+                </div>
+                <div class="btn-bottom">
+                    <button>Cadatrar</button>
+                    <button>Atualizar</button>
+                </div>
+            </div>
+            <div class="carrossel">
+                <h1>Adicionados Recentemente</h1>
+                <div id="items-wrapper">
+                    <div id="items">
+                        <div class="item">
+                            <img src="../Images/conjunto-olinda.png" alt="carrossel">
+                            <h3 class="nome-produto">Calcinha Dona Olinda</h3>
+                            <small class="price">R$ 99,99</small>
+                        </div>
+
+                        <div class="item">
+                            <img src="../Images/conjunto-olinda.png" alt="carrossel">
+                            <h3 class="nome-produto">Calcinha Dona Olinda</h3>
+                            <small class="price">R$ 99,99</small>
+                        </div>
+
+                        <div class="item">
+                            <img src="../Images/conjunto-olinda.png" alt="carrossel">
+                            <h3 class="nome-produto">Calcinha Dona Olinda</h3>
+                            <small class="price">R$ 99,99</small>
+                        </div>
+
+                        <div class="item">
+                            <img src="../Images/conjunto-olinda.png" alt="carrossel">
+                            <h3 class="nome-produto">Calcinha Dona Olinda</h3>
+                            <small class="price">R$ 99,99</small>
+                        </div>
+
+                        <div class="item">
+                            <img src="../Images/conjunto-olinda.png" alt="carrossel">
+                            <h3 class="nome-produto">Calcinha Dona Olinda</h3>
+                            <small class="price">R$ 99,99</small>
+                        </div>
+
+                        <div class="item">
+                            <img src="../Images/conjunto-olinda.png" alt="carrossel">
+                            <h3 class="nome-produto">Calcinha Dona Olinda</h3>
+                            <small class="price">R$ 99,99</small>
+                        </div>
+
+                        <div class="item">
+                            <img src="../Images/conjunto-olinda.png" alt="carrossel">
+                            <h3 class="nome-produto">Calcinha Dona Olinda</h3>
+                            <small class="price">R$ 99,99</small>
+                        </div>
+                    </div>
+                </div>
+
+                <h3>
+                    <a href="#">Saiba mais</a>
+                </h3>
+            </div>
+        </div>
+    </main>
+
+</body>
+
+</html>
