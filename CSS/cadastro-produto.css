@@ -145,12 +145,48 @@ select {
     background: #FFFFFF;
     border: 1px solid #C2C2C2;
     border-radius: 7px;
+    padding: 0 10px;
+    font: 11px Poppins;
+    color: #666666;
+    transition: 0.2s ease;
     -moz-appearance: none;
     -webkit-appearance: none;
 }
 
-.input input:focus {
+.input input:focus,
+select:focus {
     border: 3px solid #9B4A46;
+}
+
+.inputfile {
+    display: flex;
+}
+
+.inputfile input[type="file"] {
+    display: none;
+}
+
+.inputfile label {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 350px;
+    height: 20px;
+    background: #FFFFFF;
+    border: 1px solid #C2C2C2;
+    border-radius: 7px;
+    cursor: pointer;
+}
+
+.inputfile label h1 {
+    font: 11px Poppins;
+    color: #666666;
+}
+
+.t {
+    width: 1px;
+    height: 12px;
+    background-color: #666666;
 }
 
 input:-webkit-autofill,
@@ -211,23 +247,20 @@ input:-webkit-autofill {
     color: #fff;
 }
 
+
 /* MODAL =============================*/
+
 .modal-overlay {
     width: 100%;
     height: 100%;
-
-    background-color: rgba(0,0,0,0.7);
-
+    background-color: rgba(0, 0, 0, 0.7);
     position: fixed;
     top: 0;
-
     display: flex;
     align-items: center;
     justify-content: center;
-
     opacity: 0;
     visibility: hidden;
-
     z-index: 999;
 }
 
@@ -248,16 +281,17 @@ input:-webkit-autofill {
     padding: 2.4rem;
     width: 90%;
     max-width: 500px;
-
     position: relative;
     z-index: 1;
-}  
+}
 
 .input-group label {
     font-weight: normal;
 }
 
+
 /* FORM =============================*/
+
 #form {
     max-width: 500px;
 }
@@ -284,7 +318,8 @@ input:-webkit-autofill {
     margin-top: 0.8rem;
 }
 
-.input-group i {  /* gambiarra nâo mexa*/
+.input-group i {
+    /* gambiarra nâo mexa*/
     margin-left: 285px;
     position: fixed;
     margin-top: 2.4rem;
@@ -299,7 +334,6 @@ input:-webkit-autofill {
 .input-group input:focus {
     border: 1px solid #9B4A46;
 }
-
 
 .input-group input {
     width: 420px;
@@ -330,7 +364,7 @@ input:-webkit-autofill {
     padding: auto;
     height: 50px;
     border-radius: 5px;
-    border: 1px solid  #9B4A46;
+    border: 1px solid #9B4A46;
     transition: all ease 0.2s;
 }
 
@@ -356,7 +390,6 @@ input:-webkit-autofill {
 
 .input-group.actions button:hover {
     background-color: #7A0000;
-
 }
 
 @media screen and (min-width: 800px) {
@@ -381,10 +414,11 @@ input:-webkit-autofill {
         padding: 0 40px;
     }
     .nav-items {
+        width: 500px;
         margin-left: 60px;
     }
     .nav-items a {
-        font: 12px Poppins;
+        font: 15px Poppins;
     }
     .container {
         padding: 0;
@@ -397,9 +431,10 @@ input:-webkit-autofill {
         padding: 0 15%;
     }
     .btn-top button {
-        width: 30px;
-        height: 30px;
-        font: 15px Poppins;
+        width: 50px;
+        height: 50px;
+        font: 17px Poppins;
+        border-radius: 12px;
     }
     .box {
         width: 100%;
@@ -411,11 +446,27 @@ input:-webkit-autofill {
     .input {
         padding: 50px 10px;
     }
+    .input label {
+        font: 25px Poppins;
+    }
     .input input,
     select {
         width: 500px;
         height: 54px;
         border-radius: 10px;
+        padding: 0 20px;
+        font: 18px Poppins;
+    }
+    .inputfile label {
+        width: 900px;
+        height: 54px;
+    }
+    .inputfile label h1 {
+        font: 18px Poppins;
+        color: #666666;
+    }
+    .t {
+        height: 25px;
     }
     .left {
         width: 520px;

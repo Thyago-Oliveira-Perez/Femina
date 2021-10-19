@@ -113,7 +113,14 @@
                 <div class="row">
                     <div class="input">
                         <label>Imagem Do Produto</label>
-                        <input type="file" id="imagem">
+                        <div class="inputfile">
+                            <label for="imagem">
+                                <h1>Importar imagem</h1>
+                                <div class="t"></div>
+                                <h1>Arraste a imagem</h1>
+                            </label>
+                            <input type="file" id="imagem" name="imagem">
+                        </div>
                     </div>
                 </div>
             </div>
@@ -176,30 +183,32 @@
         </div>
 
         <!--modal de criação de flitros-->
-        <div class="modal-overlay"> <!-- caixa transparente -->
-            <div class="modal"> <!-- caixa branca -->
-              <div id="form">
-                <h3>Cadastrar filtros</h3>
-                <form action="">
-                  <div class="input-group">
-                    <label for="filtro">Tipo de filtro</label>
-                    <i class="fas fa-chevron-down"></i>
-                        <select id="filtro" required>
+        <div class="modal-overlay">
+            <!-- caixa transparente -->
+            <div class="modal">
+                <!-- caixa branca -->
+                <div id="form">
+                    <h3>Cadastrar filtros</h3>
+                    <form action="">
+                        <div class="input-group">
+                            <label for="filtro">Tipo de filtro</label>
+                            <i class="fas fa-chevron-down"></i>
+                            <select id="filtro" required>
                             <option selected disabled value="">Selecione</option>
                             <option>Marca</option>
                             <option>Categoria</option>
                             <option>Fornecedor</option>
                         </select>
-                    <label for="name">Nome</label>
-                    <input type="text" id="name" name="name"/>
-                  <div class="input-group actions">
-                    <a onClick="modal.close()" href="#" class="button cancel">Cancelar</a>
-                    <button>Cadastrar</button>
-                  </div>
-                </form>
-              </div>
+                            <label for="name">Nome</label>
+                            <input type="text" id="name" name="name" />
+                            <div class="input-group actions">
+                                <a onClick="modal.close()" href="#" class="button cancel">Cancelar</a>
+                                <button>Cadastrar</button>
+                            </div>
+                    </form>
+                    </div>
+                </div>
             </div>
-          </div>
     </main>
 
     <script src="../main.js"></script>
