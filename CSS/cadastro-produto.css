@@ -28,7 +28,7 @@ a {
 }
 
 .logo img {
-    width: 150px; 
+    width: 150px;
 }
 
 .user-icon {
@@ -121,7 +121,7 @@ a {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 0 400px;
+    padding: 0 200px;
 }
 
 .row {
@@ -134,10 +134,11 @@ a {
 .input {
     display: flex;
     flex-direction: column;
-    padding: 50px 10px;
+    padding: 10px 10px;
 }
 
-.input input, select{
+.input input,
+select {
     width: 170px;
     height: 20px;
     outline: none;
@@ -148,7 +149,7 @@ a {
     -webkit-appearance: none;
 }
 
-.input input:focus{
+.input input:focus {
     border: 3px solid #9B4A46;
 }
 
@@ -181,11 +182,13 @@ input:-webkit-autofill {
     width: 80px;
 }
 
-#descricao, #imagem {
+#descricao,
+#imagem {
     width: 350px;
 }
 
-#tamanho, #cor {
+#tamanho,
+#cor {
     width: 70px;
 }
 
@@ -208,91 +211,85 @@ input:-webkit-autofill {
     color: #fff;
 }
 
-@media screen and (min-width: 800px){
-
+@media screen and (min-width: 800px) {
     .header {
-        padding: 0 95px;   
+        padding: 0 95px;
     }
-
     .logo img {
-        width: 220px; 
+        width: 220px;
     }
-
     .user-icon {
         margin-top: 0;
     }
-
     .user-icon svg {
         width: 13px;
         height: 13px;
     }
-
     .user-icon a {
         font: 16px Poppins;
     }
-
     .top-nav {
         height: 50px;
         padding: 0 40px;
     }
-
     .nav-items {
         margin-left: 60px;
     }
-
     .nav-items a {
         font: 12px Poppins;
     }
-
+    .container {
+        padding: 0;
+    }
     .titulo {
         font: 16px Poppins;
+        padding: 100px 0;
     }
-
     .btn-top {
-        padding: 0 7%;
+        padding: 0 15%;
     }
-
     .btn-top button {
         width: 30px;
         height: 30px;
         font: 15px Poppins;
     }
-
+    .box {
+        width: 100%;
+        padding: 0 300px;
+    }
     .row {
         width: 1300px;
     }
-
-    .input input, select{
+    .input {
+        padding: 50px 10px;
+    }
+    .input input,
+    select {
         width: 500px;
         height: 54px;
         border-radius: 10px;
     }
-
     .left {
         width: 520px;
     }
-
     .desc {
         width: 1400px;
     }
-
     #valor {
         width: 200px;
     }
-
-    #descricao, #imagem {
+    #descricao,
+    #imagem {
         width: 900px;
     }
-
-    #tamanho, #cor {
+    #tamanho,
+    #cor {
         width: 230px;
     }
-
     .btn-bottom {
-        width: 650px;
-        padding: 40px 6.5%;
+        width: 1000px;
+        padding: 40px 15%;
     }
-    
     .btn-bottom button {
         width: 200px;
         height: 60px;
