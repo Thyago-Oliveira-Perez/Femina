@@ -145,7 +145,7 @@ header {
 
 .ofertas #items-wrapper #items .item {
     margin-left: 0rem;
-    width: 15vw;
+    width: 20vw;
 }
 
 .item {
@@ -174,11 +174,11 @@ header {
 }
 
 .arrowLeft {
-    left: 100px;
+    left: 180px;
 }
 
 .arrowRight {
-    right: 100px;
+    right: 130px;
 }
 
 @media (max-width: 900px) {
@@ -201,3 +201,4 @@ li {
     border-right: 1px solid white;
     padding: 6px 16px;
 }
+
