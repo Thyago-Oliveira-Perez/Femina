@@ -38,6 +38,7 @@ header .pesquisa input {
     height: 30px;
     text-align: center;
     color: white;
+    transition: all ease 0.3s;
 }
 
 header .pesquisa input::placeholder {
@@ -110,6 +111,44 @@ header .pesquisa i{
 
 .categorias .categorias--list a:hover {
     color: #7A0000;
+}
+
+.chosed-categories--bar {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.chosed-categories--bar .item--bar {
+    width: 80%;
+    display: flex;
+    padding: 40px;
+    align-items: center;
+    justify-content: flex-start;
+    border-bottom: 1.9px solid #c2c2c2;
+}
+
+.item--bar h1{
+    color: rgba(0, 0, 0, 0.6);
+    font-weight: 500;
+    margin-right: 20px;
+}
+
+.item--bar h3 {
+    color: #D4A9A7;
+    font-weight: 400;
+    margin-left: 20px;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+
+.item--bar h3:hover {
+    color: #7A0000;
+}
+
+.item--bar p {
+    margin:0 20px;
 }
 
 
