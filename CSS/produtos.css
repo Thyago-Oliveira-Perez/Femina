@@ -73,6 +73,11 @@ header .pesquisa i{
     align-items: center;
 }
 
+.client-bar .client-bar--item a h4:hover {
+    transition: all ease 0.3s;
+    color: #7A0000;
+}
+
 .client--link h4 {
     margin: 0 20px;
     font-size: 14.5px;
