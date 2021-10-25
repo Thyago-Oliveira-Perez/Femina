@@ -6,6 +6,7 @@
 
 body {
     font-family: poppins;
+    width: 100%;
 }
 
 /*Começo header*/
@@ -151,5 +152,24 @@ header .pesquisa i{
     margin:0 20px;
 }
 
+.products-found {
+    padding: 25px 160px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
 
+.products-found .number-products {
+    color: rgba(0, 0, 0, 0.5);
+}
 
+.products-found .clear-filters {
+    font-size: 15px;
+    color: #9B4A46;
+    cursor: pointer;
+    transition: all ease 0.3s;
+}
+
+.products-found .clear-filters:hover {
+    color: #7A0000;
+}
