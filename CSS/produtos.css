@@ -178,3 +178,104 @@ header .pesquisa i{
 .products-found .clear-filters:hover {
     color: #7A0000;
 }
+
+.products-found .products--items {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    justify-content: center;
+}
+
+.products-found .products--items .item {
+    width: 100%;
+    height: 100%;
+    margin: 50px;
+}
+
+
+
+.products-found .products--items .item h4 {
+    font-weight: 400;
+}
+
+.products-found .products--items .item p {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.products-found .next-page {
+    width: 100%;
+        display: flex;
+        justify-content: center;
+}
+
+.products-found .next-page button {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #9B4A46;
+    border-radius: 5px;
+    background-color: white;
+    transition: all ease 0.3s;
+    cursor: pointer;
+}
+
+.products-found .next-page button:hover,
+.products-found .next-page button:focus {
+    border: 1px solid #9B4A46;
+    background-color: #9B4A46;
+    color:#fff;
+}
+
+@media (max-width: 768px) {
+
+    .chosed-categories--bar .item--bar {
+        width: 80%;
+        display: flex;
+        flex-direction: column; 
+        padding: 40px;
+        align-items: center;
+        justify-content: flex-start;
+        border-bottom: 1.9px solid #c2c2c2;
+    }
+
+    .item--bar h1{
+        justify-content: center;
+        color: rgba(0, 0, 0, 0.6);
+        font-weight: 500;
+    }
+
+    .item--bar h3 {
+        justify-content: center;
+        color: #D4A9A7;
+        font-weight: 400;
+        cursor: pointer;
+        transition: all ease 0.3s;
+    }
+
+    .item--bar p {
+        margin:0;
+    }
+
+    .products-found {
+        padding: 25px 160px;
+        display: flex;
+        flex-direction: column;
+        justify-content: start;
+    }
+
+    .products-found .products--items {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        justify-content: center;
+    }
+
+    
+    .products-found .products--items .item {
+        margin: 20px;
+    }
+
+    .products-found .next-page {
+        width: 100%;
+        display: flex;
+        justify-content: center;
+    }
+
+}
