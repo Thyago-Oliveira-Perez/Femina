@@ -5,9 +5,8 @@
 }
 
 body {
-    font-family: poppins;
+    font-family: Poppins;
 }
-
 
 /*Começo header*/
 
@@ -58,7 +57,9 @@ header .pesquisa i {
 }
 
 .client-bar {
-    width: 30%;
+    display: flex;
+    justify-content: center;
+    width: 35%;
 }
 
 .client-bar .client-bar--item {
@@ -71,7 +72,7 @@ header .pesquisa i {
     margin: 20px;
     display: flex;
     align-items: center;
-}
+}   
 
 .client--link h4 {
     margin: 0 20px;
@@ -120,6 +121,7 @@ header .pesquisa i {
     width: 100%;
     height: 90vh;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
 }
@@ -131,14 +133,209 @@ header .pesquisa i {
     justify-content: space-between;
     align-items: center;
     background-color: #D4A9A7;
-    padding: 0 80px;
+    padding: 0 150px;
+}
+
+.images {
+    width: 500px;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.imagem-principal img {
+    background-size: cover;
+    width: 480px;
+    height: 400px;  
 }
 
 .imagens-menores {
+    width: 100%;
     display: flex;
+    justify-content: space-around;
 }
 
-footer {
+.imagens-menores img {
+    max-width: 90px;
+}
+
+.content {
+    width: 550px;
+    height: 475px;
+}
+
+.row-title {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 0;
+    font: 28px Poppins;
+    color: #fff;
+}
+
+.row-price {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 0;
+    font: 22px Poppins;
+    color: #fff;
+}
+
+.l {
+    width: 100%;
+    height: 1px;
+    background-color: #fff;
+}
+
+.text {
+    padding-top: 50px;
+    text-align: justify;
+    font: 20px Poppins;
+    color: #fff;
+}
+
+.definicoes {
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 0;
+}
+
+.definicoes h2 {
+    font: 16px Poppins;
+    color: #fff;
+}
+
+.cores {
+    width: 250px;
+}
+
+.colors {
+    width: 200px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.cor {
+    width: 30px;
+    height: 30px;
+    border-radius: 100%;
+}
+
+#cor1 {
+    background-color: #fff;
+}
+
+#cor2 {
+    background-color: #311214;
+}
+
+#cor3 {
+    background-color: #7B3A3A;
+}
+
+#cor4 {
+    background-color: #9B2121;
+}
+
+.t {
+    width: 1px;
+    height: 80px;
+    background-color: #fff;
+
+}
+
+.tamanhos {
+    width: 200px;
+    display: flex;
+    flex-direction: column;   
+}
+
+.tamanho {
+    width: 250px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 0;
+    font: 16px Poppins;
+    color: #fff;
+}
+
+.semelhantes {
+    padding: 15rem;
+    padding-top: 3rem;
+}
+
+.semelhantes h1 {
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.item h3 {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.item p {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.semelhantes #items-wrapper #items {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+.semelhantes #items-wrapper #items .item {
+    margin-left: 0rem;
+    width: 20vw;
+}
+
+.item {
+    flex: none;
+}
+
+.arrowLeft,
+.arrowRight {
+    position: absolute;
+    width: 40px;
+    height: 225px;
+
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    cursor: pointer;
+    opacity: .7;
+    transition: all ease 0.5s;
+}
+
+.arrowLeft:hover,
+.arrowRight:hover {
+    opacity: 1;
+}
+
+.arrowLeft {
+    left: 180px;
+}
+
+.arrowRight {
+    right: 130px;
+}
+
+
+
+footer{
     display: flex;
     align-items: center;
     justify-content: space-around;
@@ -147,9 +344,112 @@ footer {
     height: 230px;
 }
 
-.footer {
+.footer{
     display: flex;
     width: 80%;
     justify-content: space-around;
     color: white;
+}
+
+@media screen and (max-width: 800px) {
+    header .logo img {
+        max-width: 130px;
+    }
+    header .pesquisa {
+        font: 15px Poppins;
+    }
+    header .pesquisa input {
+        width: 180px;
+    }
+    .categorias {
+        width: 100%;
+    }
+    .categorias .categorias--list {
+        width: 85%;
+    }
+    .categorias .categorias--list a { 
+        margin: 0 10px;
+        padding: 6px 16px;
+    }
+    .client-bar {
+        width: 80px;
+    }
+   .client-bar--item {
+        width: 70px;
+        margin: 0;
+    }
+    .client--link h4 {
+        margin: 5px;
+        font-size: 12.5px;
+    }
+    .client--link i {
+        font-size: 12px;
+    }
+    .box {
+        height: 475px;
+        padding: 0 50px;
+    }
+    .images {
+        width: 300px;
+        height: 300px;
+    }
+    .imagem-principal img {
+        background-size: cover;
+        width: 300px;
+        height: 280px;  
+    }
+    .imagens-menores img {
+        max-width: 60px;
+    }
+    .content {
+        width: 250px;
+        height: 275px;
+    }
+    .row-title {
+        padding: 5px 0;
+        font: 14px Poppins;
+    }
+    .row-price {
+        padding: 20px 0;
+        font: 12px Poppins;
+    }    
+    .text {
+        padding-top: 20px;
+        font: 10px Poppins;
+    }
+    .definicoes {
+        width: 230px;
+    }
+    .definicoes h2 {
+        font: 12px Poppins;
+    }
+    .cores {
+        width: 120px;
+    }
+    .colors {
+        width: 90px;
+    }
+    .cor {
+        width: 15px;
+        height: 15px;
+    }
+    .t {
+        height: 50px;
+    } 
+    .tamanhos {
+        width: 50px;
+    }
+    .tamanho {
+        width: 150px;
+        font: 8px Poppins;
+    }
+    .footer {
+        width: 90%;
+    }
+    .footer h2{
+        font: bold 16px Poppins;
+    }
+    .footer p{
+        font: 10px Poppins;
+    }
 }
