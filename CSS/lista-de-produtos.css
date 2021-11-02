@@ -12,6 +12,12 @@ a {
     text-decoration: none;
 }
 
+body{
+
+    height: auto;
+
+}
+
 .header {
     width: 100%;
     height: 77px;
@@ -94,6 +100,7 @@ main{
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 
 }
 
@@ -103,7 +110,7 @@ main{
     align-items: center;
     justify-content:flex-start;
 
-    height: 260px;
+    height: auto;
     width: 80%;
     margin: 120px 0 0 0;
     background-color: #D4A9A7;
@@ -114,7 +121,7 @@ main{
 .infos-prod{
 
     display: flex;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
 
 }
@@ -128,7 +135,7 @@ main{
 .info p{
 
     font-size: 20px;
-    margin: 10px 0;
+    margin: 0 0 10px 0;
 
 }
 
@@ -141,5 +148,60 @@ main{
 .botao{
 
     margin: 50px 0;
+
+}
+
+
+.produto-ampliado{
+
+    display: flex;
+    align-items: center;
+    justify-content:flex-start;
+
+    height: auto;
+    width: 80%;
+    margin: 120px 0 0 0;
+    background-color: #D4A9A7;
+    color: white;
+
+}
+
+.infos-prod-ampliado{
+
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 50px 0;
+
+}
+
+.img-prod{
+
+    margin: 0 60px;
+
+}
+
+.info-ampliado p{
+
+    font-size: 20px;
+    margin: 0 0 10px 0;
+
+}
+
+.actions-ampliado{
+
+    margin-left: 57%;
+
+}
+
+.botao-lixo, .botao-edita{
+
+    margin: 50px 0;
+
+}
+
+.botao-seta{
+
+    margin: 200px 0 0 0;
 
 }
