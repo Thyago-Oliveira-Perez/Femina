@@ -80,7 +80,7 @@ a {
 
 .nav-items a:hover {
     padding: 0;
-    border-bottom: 1px solid  #fff;
+    border-bottom: 1px solid #fff;
 }
 
 .l {
@@ -270,6 +270,75 @@ input:-webkit-autofill {
     font: 19px Poppins;
     box-shadow: 1px 1px 4px #9B4A46;
     background-color: #b96d69;
+}
+
+.carrossel {
+    padding: 10rem;
+    padding-top: 3rem;
+}
+
+.carrossel h1 {
+    font-size: 20px;
+    font-weight: normal;
+    margin-bottom: 20px;
+}
+
+.item h3 {
+    font-size: 15px;
+    font-weight: 500;
+}
+
+.item p {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.carrossel #items-wrapper #items {
+    display: flex;
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    overflow-x: hidden;
+}
+
+.carrossel #items-wrapper #items .item {
+    margin-left: 0rem;
+    width: 20vw;
+}
+
+.item {
+    flex: none;
+}
+
+.item small {
+    color: rgba(0, 0, 0, 0.6);
+}
+
+.arrowLeft,
+.arrowRight {
+    position: absolute;
+    width: 40px;
+    height: 225px;
+    z-index: 99;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    cursor: pointer;
+    opacity: .7;
+    transition: all ease 0.5s;
+}
+
+.arrowLeft:hover,
+.arrowRight:hover {
+    opacity: 1;
+}
+
+.arrowLeft {
+    left: 180px;
+}
+
+.arrowRight {
+    right: 130px;
 }
 
 
@@ -469,17 +538,17 @@ input:-webkit-autofill {
         padding: 0 300px;
     }
     .row {
-        width: 1300px;
+        width: 1000px;
     }
     .input {
         padding: 50px 10px;
     }
     .input label {
-        font: 25px Poppins;
+        font: 18px Poppins;
     }
     .input input,
     select {
-        width: 500px;
+        width: 400px;
         height: 54px;
         border-radius: 10px;
         padding: 0 20px;
@@ -492,6 +561,9 @@ input:-webkit-autofill {
     .inputfile label h1 {
         font: 18px Poppins;
         color: #666666;
+    }
+    .inputfile {
+        width: 600px;
     }
     .t {
         height: 25px;
@@ -507,18 +579,18 @@ input:-webkit-autofill {
     }
     #descricao,
     #imagem {
-        width: 900px;
+        width: 600px;
     }
     #tamanho,
     #cor {
         width: 230px;
     }
     .btn-bottom {
-        width: 450px;
-        padding: 40px 0;
+        width: 420px;
+        padding: 35px 0;
     }
     .btn-bottom button {
-        width: 200px;
+        width: 180px;
         height: 60px;
         border-radius: 10px;
         font: 17px Poppins;
